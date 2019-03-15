@@ -1,0 +1,59 @@
+{
+  "name": "@blockone/eosjs-window-message-signature-provider-interface",
+  "version": "4.0.1",
+  "description": "A SignatureProviderInterface for communicating with an authenticator over the Window Messaging API using the EOSIO Auth Transport Protocol.",
+  "author": {
+    "name": "block.one",
+    "url": "https://block.one"
+  },
+  "contributors": [
+    "Ryan Wiesjahn",
+    "Lucas Fonseca",
+    "Tara Tritt"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/EOSIO/eosjs-window-message-signature-provider-interface#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EOSIO/eosjs-window-message-signature-provider-interface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EOSIO/eosjs-window-message-signature-provider-interface/issues"
+  },
+  "keywords": [
+    "signature",
+    "provider",
+    "interface",
+    "bridge",
+    "eos",
+    "eosio",
+    "eosjs"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn clean && yarn lint && tsc -p ./tsconfig.json",
+    "lint": "tslint \"src/**/*.ts{,?}\"",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@blockone/eosjs-signature-provider-interface": "^6.0.0"
+  },
+  "devDependencies": {
+    "@blockone/tslint-config-blockone": "^1.0.0",
+    "@types/node": "^10.12.12",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.1"
+  },
+  "jest": {
+    "coverageThreshold": {},
+    "collectCoverageFrom": [
+      "src/**/*"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "text-summary"
+    ]
+  }
+}
