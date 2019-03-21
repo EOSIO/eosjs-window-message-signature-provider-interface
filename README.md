@@ -2,6 +2,12 @@
 
 A [SignatureProviderInterface](https://github.com/EOSIO/eosjs-signature-provider-interface) for communicating with an authenticator over the [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) using the [EOSIO Auth Transport Protocol](https://github.com/EOSIO/eosio-auth-transport-protocol-specification).
 
+![EOSIO Labs](https://img.shields.io/badge/EOSIO-LABS-blue.svg)
+
+## About EOSIO Labs
+
+EOSIO Labs repositories are experimental.  Developers in the community are encouraged to use EOSIO Labs repositories as the basis for code and concepts to incorporate into their applications. Community members are also welcome to contribute and further develop these repositories. Since these repositories are not supported by Block.one, we may not provide responses to issue reports, pull requests, updates to functionality, or other requests from the community, and we encourage the community to take responsibility for these.
+
 ## Overview
 
 When plugged into `eosjs`, this signature provider enables desktop web applications to route signing requests to a browser extension authenticator. Full instructions for `eosjs` can be found [here](https://github.com/EOSIO/eosjs).
