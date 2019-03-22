@@ -1,6 +1,6 @@
 # EOSJS Signature Provider for desktop browsers
 
-A [SignatureProviderInterface](https://github.com/EOSIO/eosjs-signature-provider-interface) for communicating with an authenticator over the [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) using the [EOSIO Auth Transport Protocol](https://github.com/EOSIO/eosio-auth-transport-protocol-specification).
+A [SignatureProviderInterface](https://github.com/EOSIO/eosjs-signature-provider-interface) for communicating with an authenticator over the [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) using the [EOSIO Authentication Transport Protocol](https://github.com/EOSIO/eosio-authentication-transport-protocol-spec).
 
 ![EOSIO Labs](https://img.shields.io/badge/EOSIO-Labs-5cb3ff.svg)
 
@@ -42,7 +42,7 @@ api.transact(...)
 ## Links
 - [SignatureProviderInterface](https://github.com/EOSIO/eosjs-signature-provider-interface)
 - [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
-- [EOSIO Auth Transport Protocol](https://github.com/EOSIO/eosio-auth-transport-protocol-specification)
+- [EOSIO Authentication Transport Protocol](https://github.com/EOSIO/eosio-authentication-transport-protocol-spec)
 
 ## Contribution
 Check out the [Contributing](https://github.com/EOSIO/eosjs-window-message-signature-provider-interface/blob/develop/CONTRIBUTING.md) guide and please adhere to the [Code of Conduct](https://github.com/EOSIO/eosjs-window-message-signature-provider-interface/blob/develop/CONTRIBUTING.md#conduct)
