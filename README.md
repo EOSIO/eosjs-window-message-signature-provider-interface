@@ -2,7 +2,7 @@
 
 A [SignatureProviderInterface](https://github.com/EOSIO/eosjs-signature-provider-interface) for communicating with an authenticator over the [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) using the [EOSIO Auth Transport Protocol](https://github.com/EOSIO/eosio-auth-transport-protocol-specification).
 
-![EOSIO Labs](https://img.shields.io/badge/EOSIO-LABS-blue.svg)
+![EOSIO Labs](https://img.shields.io/badge/EOSIO-Labs-5cb3ff.svg)
 
 ## About EOSIO Labs
 
