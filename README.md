@@ -15,7 +15,7 @@ When plugged into `eosjs`, this signature provider enables desktop web applicati
 ## Installation
 
 ```bash
-yarn add @blockone/eosjs-window-message-signature-provider-interface
+yarn add eosjs-window-message-signature-provider-interface
 
 ```
 
@@ -23,7 +23,7 @@ yarn add @blockone/eosjs-window-message-signature-provider-interface
 
 ```javascript
 import { Api, JsonRpc } from "eosjs"
-import { SignatureProvider } from "@blockone/eosjs-window-message-signature-provider-interface"
+import { SignatureProvider } from "eosjs-window-message-signature-provider-interface"
 
 const rpc = new JsonRpc("RPC_ENDPOINT_HERE")
 const signatureProvider = new SignatureProvider({
