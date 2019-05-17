@@ -1,6 +1,6 @@
-# EOSJS Signature Provider for desktop browsers
+# EOSJS Signature Provider for Desktop Browsers
 
-A [SignatureProviderInterface](https://github.com/EOSIO/eosjs-signature-provider-interface) for communicating with an authenticator over the [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) using the [EOSIO Authentication Transport Protocol](https://github.com/EOSIO/eosio-authentication-transport-protocol-spec).
+A [Signature Provider Interface](https://github.com/EOSIO/eosjs-signature-provider-interface) for communicating with an authenticator over the [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) using the [EOSIO Authentication Transport Protocol Specification](https://github.com/EOSIO/eosio-authentication-transport-protocol-spec).
 
 ![EOSIO Labs](https://img.shields.io/badge/EOSIO-Labs-5cb3ff.svg)
 
@@ -16,7 +16,6 @@ When plugged into `eosjs`, this signature provider enables desktop web applicati
 
 ```bash
 yarn add eosjs-window-message-signature-provider-interface
-
 ```
 
 ## Basic Usage
@@ -40,9 +39,9 @@ api.transact(...)
 ```
 
 ## Links
-- [SignatureProviderInterface](https://github.com/EOSIO/eosjs-signature-provider-interface)
+- [Signature Provider Interface](https://github.com/EOSIO/eosjs-signature-provider-interface)
 - [Window Messaging API](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
-- [EOSIO Authentication Transport Protocol](https://github.com/EOSIO/eosio-authentication-transport-protocol-spec)
+- [EOSIO Authentication Transport Protocol Specification](https://github.com/EOSIO/eosio-authentication-transport-protocol-spec)
 
 ## Contribution
 Check out the [Contributing](./CONTRIBUTING.md) guide and please adhere to the [Code of Conduct](./CONTRIBUTING.md#conduct)
