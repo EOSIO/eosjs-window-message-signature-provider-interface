@@ -1,6 +1,6 @@
 {
   "name": "@blockone/eosjs-window-message-signature-provider-interface",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "A SignatureProviderInterface for communicating with an authenticator over the Window Messaging API using the EOSIO Auth Transport Protocol.",
   "author": {
     "name": "block.one",
