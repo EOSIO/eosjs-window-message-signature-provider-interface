@@ -36,7 +36,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@blockone/eosjs-signature-provider-interface": "^6.0.1"
+    "@blockone/eosjs-signature-provider-interface": "^7.0.0"
   },
   "devDependencies": {
     "@blockone/tslint-config-blockone": "^4.0.0",
