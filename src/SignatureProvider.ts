@@ -5,7 +5,7 @@ import {
   SignatureProviderInterfaceParams,
   SignatureProviderRequestEnvelope,
   unpackEnvelope,
-} from '@blockone/eosjs-signature-provider-interface'
+} from 'eosjs-signature-provider-interface'
 
 import { ExpiringLocalStorageProvider } from './ExpiringLocalStorageProvider'
 
