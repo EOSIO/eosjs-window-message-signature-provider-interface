@@ -1,6 +1,6 @@
 {
-  "name": "@blockone/eosjs-window-message-signature-provider-interface",
-  "version": "4.0.3",
+  "name": "eosjs-window-message-signature-provider-interface",
+  "version": "0.1.0",
   "description": "A Signature Provider Interface for communicating with an authenticator over the Window Messaging API using the EOSIO Auth Transport Protocol.",
   "author": {
     "name": "block.one",
@@ -36,7 +36,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@blockone/eosjs-signature-provider-interface": "^7.0.0"
+    "eosjs-signature-provider-interface": "^0.1.0"
   },
   "devDependencies": {
     "@blockone/tslint-config-blockone": "^4.0.0",
