@@ -1,6 +1,6 @@
 {
   "name": "eosjs-window-message-signature-provider-interface",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Signature Provider Interface for communicating with an authenticator over the Window Messaging API using the EOSIO Auth Transport Protocol.",
   "author": {
     "name": "block.one",
