@@ -31,15 +31,17 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "yarn clean && yarn lint && tsc -p ./tsconfig.json",
-    "lint": "tslint \"src/**/*.ts{,?}\"",
-    "clean": "rm -rf dist"
+    "build": "yarn lint & tsc -p ./tsconfig.json",
+    "clean-build": "rm -rf dist && yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -c tslint.json src/*.ts",
+    "prepublish": "yarn clean-build"
   },
   "dependencies": {
-    "eosjs-signature-provider-interface": "^0.1.0"
+    "eosjs-signature-provider-interface": "^0.1.1"
   },
   "devDependencies": {
-    "@blockone/tslint-config-blockone": "^4.0.0",
+    "@blockone/tslint-config-blockone": "^4.0.1",
     "@types/node": "^10.12.12",
     "tslib": "^1.9.3",
     "tslint": "^5.11.0",
